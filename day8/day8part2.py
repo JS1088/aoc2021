@@ -33,7 +33,7 @@ for line in data:
                 res[9] = digit
             if (3 in res and 9 in res and lendigit == 5 and all(item in splitstr(res[9]) for item in digit_list) and digit != res[3] ):
                 res[5] = digit
-            if (8 in res and 5 in res and lendigit == 5 and digit != res[5] and digit != res[3]):
+            if (3 in res and 5 in res and lendigit == 5 and digit != res[5] and digit != res[3]):
                 res[2] = digit
             if (5 in res and 9 in res and lendigit == 6 and all(item in digit_list for item in splitstr(res[5])) and digit != res[9] ):
                 res[6] = digit
